@@ -6,8 +6,6 @@ You get **2 Pioneer CDJ-3000 players** and a **DJM-A9 mixer** on screen, and you
 
 Everything is in one file: [`dj-practice.html`](dj-practice.html). You don't need to install anything or be online.
 
-> The app's own text is in Greek. Button names in this guide are written exactly as they appear on screen.
-
 ---
 
 ## How to open it
@@ -26,8 +24,6 @@ To turn this link on (one time only):
 3. Pick branch **main** and folder **/ (root)**, then click **Save**.
 4. Wait 1–2 minutes. The link appears at the top of the **Pages** screen.
 
-> GitHub Pages is free only for **public** repos.
-
 **Option 2: Offline**
 
 1. On GitHub, click **Code → Download ZIP** and unzip it.
@@ -39,8 +35,85 @@ To turn this link on (one time only):
 
 1. Click **POWER**.
 2. Click **📁 USB** and pick the folder with your songs.
-3. On a player, click **BROWSE** and double-click a song.
+3. On a player, click **BROWSE**. Scroll the round knob next to the screen to move, and click it to pick a song (or just double-click the song).
 4. Press **PLAY** and push up that channel's fader on the mixer.
+
+You can also drag an MP3 straight onto a player to load it there.
+
+---
+
+## The player buttons
+
+The players are laid out like a real CDJ-3000. Here's what the buttons do.
+
+**Finding songs** (around the screen)
+
+| Button | What it does |
+|---|---|
+| **BROWSE** / **PLAY LIST** | Show your folders and songs on the screen |
+| **SEARCH** | Type part of a song name to find it |
+| **TAG LIST** | Your shortlist of songs |
+| **TAG TRACK/REMOVE** | Add a song to the TAG LIST, or take it off |
+| Round knob (right of the screen) | Scroll to move, click to pick |
+| **BACK** | Go back one step, or close the list |
+
+**On the screen**
+
+| Button | What it does |
+|---|---|
+| **BEAT LOOP** | Make a loop of 1/4 to 32 beats |
+| **KEY SHIFT** | Move the song's key up or down |
+| **BEAT JUMP** | Choose how far the jump buttons jump |
+| **GRID** (under the waveform) | Fix the beat grid if it's off |
+| Small waveform (bottom) | Click to jump to that part of the song |
+
+**Cues and loops**
+
+| Button | What it does |
+|---|---|
+| **A–H** pads | Hot cues. Click an empty pad to save, a saved pad to jump. |
+| **CALL/DELETE** | Press it, then a pad, to delete that hot cue |
+| **MEMORY** | Save the cue point as a memory cue |
+| **CUE/LOOP CALL ◀ ▶** | Go to the previous / next memory cue |
+| **DELETE** | Delete the memory cue you're on |
+| **IN/CUE** → **OUT** | Make a loop by hand |
+| **RELOOP/EXIT** | Leave the loop, or go back into it |
+| **4** / **8** | 4- or 8-beat loop. While a loop plays, they make it half / double. |
+
+**Speed and sound**
+
+| Button | What it does |
+|---|---|
+| **TEMPO** slider | Down = faster, up = slower |
+| **TEMPO** button | Range: ±6%, ±10%, ±16%, or WIDE |
+| **TEMPO RESET** | Back to the original speed |
+| **MASTER TEMPO** | Change speed without changing the key |
+| **BEAT SYNC** | Match the speed and beats of the MASTER player |
+| **MASTER** | Make this player the one the other follows |
+| **KEY SYNC** | Match the key of the MASTER player |
+| **DIRECTION** | FWD = normal, REV = backwards. Hold SLIP REV to play backwards for a moment. |
+| **SLIP** | The song keeps going silently during loops and scratches, then jumps back in |
+| **QUANTIZE** | Cues and loops snap to the beat |
+
+**Jog wheel**
+
+| Control | What it does |
+|---|---|
+| Top of the jog | Scratch, or hold it to stop the song (in VINYL mode) |
+| Outer bumpy ring | Speed up or slow down a little (nudge) |
+| **JOG MODE** | Switch between VINYL and CDJ |
+| **JOG ADJUST** | Make the jog feel light or heavy |
+| **VINYL SPEED ADJ.** | How slowly the song stops when you press PAUSE, like a turntable |
+
+**Other**
+
+| Button | What it does |
+|---|---|
+| **TIME MODE** | Click: show time played or time left. Hold: turn AUTO CUE on/off. |
+| **TRACK SEARCH** ◀◀ ▶▶ | Previous / next song |
+| **SEARCH** ◀◀ ▶▶ | Fast rewind / forward while held |
+
+Your hot cues, memory cues, and grid fixes are saved for each song, so they're still there next time you load it.
 
 ---
 
@@ -78,8 +151,8 @@ You don't need the mouse for the main buttons. The keys work even when your keyb
 
 ### Good to know
 
-- Keys don't work while the song list (**BROWSE**) is open or while you're typing in search.
-- The full list is also in the app: click **⌨ Οδηγίες** (Help) at the top right.
+- Keys don't work while you're typing in **SEARCH**, or while the **🎵 Tracks** window is open.
+- The full list is also in the app: click **⌨ Help** at the top right.
 
 ---
 
@@ -88,8 +161,8 @@ You don't need the mouse for the main buttons. The keys work even when your keyb
 - **Use Chrome or Edge.** Other browsers may not play sound.
 - **Your music is not on GitHub.** Bring your songs on a USB stick or in the cloud (OneDrive, Google Drive).
 - **Pick your music folder every time.** The browser can't remember it.
-- **Beat grid fixes stay on that computer only.** You may need to fix some grids again on a new computer.
-- **Headphones:** each time, click **🎧 Ήχος / Ακουστικά** (Sound / Headphones) and pick **Split cue**. You'll hear the cue in your left ear and the main mix in your right ear.
+- **Hot cues, memory cues, and grid fixes stay on that computer only.** On a new computer you'll need to set them again.
+- **Headphones:** each time, click **🎧 Sound / Headphones** and pick **Split cue**. You'll hear the cue in your left ear and the main mix in your right ear.
 - **No sound?** Check that you clicked **POWER**, the channel fader is up, **MASTER LEVEL** is up, and your computer's volume is on.
 - **Work or school computer?** If you can't pick a folder, drag the MP3 files onto the page.
 
@@ -121,6 +194,6 @@ The online version updates in 1–2 minutes. If you still see the old version, p
 ## How it's different from the real thing
 
 - The mixer has **2 channels** (the real DJM-A9 has 4). Player 1 is CH 1 and Player 2 is CH 2.
-- There's no mic, Bluetooth, booth output, memory cues, or touch screen browser.
+- There's no mic, Bluetooth, booth output, or SD card.
 - The effects sound close to the real ones, but not exactly the same.
 - A mouse and keyboard don't feel like real knobs and jog wheels. The way you mix and beatmatch is the same, though.
