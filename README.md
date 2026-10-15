@@ -1,103 +1,126 @@
 # DJ Practice Booth
 
-Προσομοιωτής για εξάσκηση στο σπίτι: **2 × CDJ-3000 + μίκτης DJM-A9**, που τρέχει στον browser.
-Φορτώνεις τα δικά σου MP3 σαν να έχεις βάλει USB στην κονσόλα.
+Practice DJing at home, in your browser.
 
-Όλη η εφαρμογή είναι ένα αρχείο, το [`dj-practice.html`](dj-practice.html). Δεν θέλει εγκατάσταση και δεν θέλει internet για να δουλέψει.
+You get **2 Pioneer CDJ-3000 players** and a **DJM-A9 mixer** on screen, and you can load your own MP3s, just like plugging in a USB stick.
 
----
+Everything is in one file: [`dj-practice.html`](dj-practice.html). You don't need to install anything or be online.
 
-## Πώς το ανοίγεις
-
-### Τρόπος Α: Από το internet με GitHub Pages (ο πιο εύκολος)
-
-Αφού το ενεργοποιήσεις μία φορά (δες παρακάτω), το ανοίγεις από οποιονδήποτε υπολογιστή με το link:
-
-```
-https://<username>.github.io/<όνομα-repo>/dj-practice.html
-```
-
-**Ενεργοποίηση (μία φορά):**
-1. Στο GitHub άνοιξε το repo → **Settings** → **Pages**.
-2. Στο **Source** διάλεξε **Deploy from a branch**.
-3. Branch: **main**, φάκελος: **/ (root)** → **Save**.
-4. Περίμενε 1–2 λεπτά. Το link εμφανίζεται πάνω-πάνω στη σελίδα **Pages**.
-
-> ⚠️ Το GitHub Pages είναι δωρεάν μόνο για **δημόσια (public)** repos. Για private repo χρειάζεται συνδρομή GitHub Pro.
-> Αν το repo είναι public, το link μπορεί να το ανοίξει όποιος το ξέρει. Οι μουσικές σου πάντως **δεν** ανεβαίνουν πουθενά (δες παρακάτω).
-
-### Τρόπος Β: Τοπικά, χωρίς internet
-
-1. Στο GitHub πάτα **Code → Download ZIP** (ή `git clone`) και αποσυμπίεσε τον φάκελο.
-2. Κάνε δεξί κλικ στο `dj-practice.html` → **Άνοιγμα με → Google Chrome** ή **Microsoft Edge**.
+> The app's own text is in Greek. Button names in this guide are written exactly as they appear on screen.
 
 ---
 
-## Τι να προσέξεις όταν το τρέχεις από άλλο υπολογιστή
+## How to open it
 
-| Θέμα | Τι ισχύει | Τι κάνεις |
+**Option 1: Online (easiest)**
+
+Open this link in **Chrome** or **Edge**:
+
+```
+https://<username>.github.io/<repo-name>/dj-practice.html
+```
+
+To turn this link on (one time only):
+1. On GitHub, go to your repo → **Settings** → **Pages**.
+2. Under **Source**, pick **Deploy from a branch**.
+3. Pick branch **main** and folder **/ (root)**, then click **Save**.
+4. Wait 1–2 minutes. The link appears at the top of the **Pages** screen.
+
+> GitHub Pages is free only for **public** repos.
+
+**Option 2: Offline**
+
+1. On GitHub, click **Code → Download ZIP** and unzip it.
+2. Right-click `dj-practice.html` → **Open with** → **Chrome** or **Edge**.
+
+---
+
+## Getting started
+
+1. Click **POWER**.
+2. Click **📁 USB** and pick the folder with your songs.
+3. On a player, click **BROWSE** and double-click a song.
+4. Press **PLAY** and push up that channel's fader on the mixer.
+
+---
+
+## Keyboard controls
+
+You don't need the mouse for the main buttons. The keys work even when your keyboard is set to Greek.
+
+### Players
+
+| What it does | Player 1 (left) | Player 2 (right) |
 |---|---|---|
-| **Browser** | Δουλεύει σε **Chrome** ή **Edge** (πρόσφατη έκδοση). Σε Firefox/Safari μπορεί να μη δουλέψει ο ήχος ή η επιλογή φακέλου. | Άνοιξέ το πάντα σε Chrome ή Edge. |
-| **Η μουσική σου** | Τα MP3 **δεν** είναι μέσα στο repo. Η εφαρμογή διαβάζει μόνο αρχεία που υπάρχουν στον υπολογιστή που κάθεσαι. | Πάρε τα τραγούδια μαζί σου (USB stick, OneDrive, Google Drive) και πάτα **📁 USB** για να διαλέξεις τον φάκελο. |
-| **Επιλογή φακέλου κάθε φορά** | Ο browser για λόγους ασφαλείας δεν θυμάται τον φάκελο. | Σε κάθε άνοιγμα πάτα ξανά **📁 USB** και διάλεξε τον φάκελο. |
-| **Διορθώσεις beat grid / BPM** | Αποθηκεύονται **μόνο** στον συγκεκριμένο browser, σε αυτόν τον υπολογιστή και σε αυτή τη διεύθυνση. Το τοπικό αρχείο και το link του GitHub Pages έχουν **ξεχωριστή** μνήμη. | Σε νέο υπολογιστή ίσως χρειαστεί να ξαναδιορθώσεις το grid σε κάποια κομμάτια. Χρησιμοποίησε πάντα τον ίδιο τρόπο (π.χ. πάντα το link) για να μη χάνεις τις διορθώσεις. |
-| **Ακουστικά (CUE)** | Η ρύθμιση δεν αποθηκεύεται. | Σε κάθε άνοιγμα πήγαινε **🎧 Ήχος / Ακουστικά** και διάλεξε **Split cue** (αριστερό αυτί = CUE, δεξί = MASTER). |
-| **Ονόματα συσκευών ήχου** | Για να δεις τα ονόματα των εξόδων ήχου, ο browser ζητάει άδεια για το μικρόφωνο. Δεν ηχογραφείται τίποτα. | Πάτα **Εμφάνιση ονομάτων συσκευών** → Allow. Αλλιώς θα βλέπεις «Έξοδος ήχου 1, 2…». |
-| **Υπολογιστές εταιρείας / σχολής** | Κάποιοι διαχειριστές μπλοκάρουν αρχεία `file://` ή την επιλογή φακέλων. | Προτίμησε το link του GitHub Pages. Αν δεν επιτρέπεται η επιλογή φακέλου, σύρε τα MP3 πάνω στη σελίδα ή χρησιμοποίησε **+ Αρχεία** μέσα στο BROWSE. |
-| **Αργός υπολογιστής** | Η ανάλυση BPM γίνεται όταν φορτώνεις ένα κομμάτι και κρατάει 1–3 δευτερόλεπτα. Πολύ μεγάλα αρχεία (WAV/FLAC) θέλουν περισσότερη μνήμη. | Φόρτωνε το επόμενο κομμάτι λίγο πριν το χρειαστείς, όπως και στα πραγματικά CDJ. |
-| **Ήχος δεν βγαίνει** | Ο browser ξεκινάει τον ήχο μόνο αφού πατήσεις **POWER**. | Πάτα POWER και έλεγξε ότι το fader του καναλιού, το MASTER LEVEL και η ένταση των Windows είναι ανεβασμένα. |
+| **CUE** | `Z` | `N` |
+| **PLAY / PAUSE** | `X` | `M` |
+| Nudge slower / faster | `A` / `S` | `K` / `L` |
+| Hot Cues A, B, C, D | `1` `2` `3` `4` | `7` `8` `9` `0` |
+| Delete a Hot Cue | `Shift` + hot cue key | `Shift` + hot cue key |
+| 4-beat loop | `Q` | `U` |
+| Exit / restart loop | `W` | `I` |
+| Beat Sync on/off | `E` | `O` |
+| Jump back / forward | `D` / `F` | `H` / `J` |
+
+### Mixer
+
+| What it does | Key |
+|---|---|
+| Crossfader left / right (hold) | `←` / `→` |
+| Beat FX on/off | `Space` |
+
+### How CUE works (same as a real CDJ)
+
+- **When paused:** press CUE to set a cue point where the track is right now.
+- **Hold CUE** on the cue point: the track plays while you hold it and jumps back when you let go.
+- **While holding CUE**, press PLAY to keep playing.
+- **While playing:** press CUE to jump back to the cue point and stop.
+
+### Good to know
+
+- Keys don't work while the song list (**BROWSE**) is open or while you're typing in search.
+- The full list is also in the app: click **⌨ Οδηγίες** (Help) at the top right.
 
 ---
 
-## ⚠️ Μην ανεβάσεις τη μουσική σου στο GitHub
+## Using it on another computer
 
-- Τα περισσότερα τραγούδια έχουν **πνευματικά δικαιώματα** και ένα public repo τα κάνει διαθέσιμα σε όλους.
-- Το GitHub δεν δέχεται αρχεία **πάνω από 100 MB** και δεν είναι φτιαγμένο για μουσικές βιβλιοθήκες.
-
-Το αρχείο [`.gitignore`](.gitignore) του repo αγνοεί ήδη τα αρχεία ήχου (`.mp3`, `.wav`, `.flac` κ.λπ.), ώστε να μην ανέβουν κατά λάθος.
+- **Use Chrome or Edge.** Other browsers may not play sound.
+- **Your music is not on GitHub.** Bring your songs on a USB stick or in the cloud (OneDrive, Google Drive).
+- **Pick your music folder every time.** The browser can't remember it.
+- **Beat grid fixes stay on that computer only.** You may need to fix some grids again on a new computer.
+- **Headphones:** each time, click **🎧 Ήχος / Ακουστικά** (Sound / Headphones) and pick **Split cue**. You'll hear the cue in your left ear and the main mix in your right ear.
+- **No sound?** Check that you clicked **POWER**, the channel fader is up, **MASTER LEVEL** is up, and your computer's volume is on.
+- **Work or school computer?** If you can't pick a folder, drag the MP3 files onto the page.
 
 ---
 
-## Ενημέρωση της εφαρμογής
+## Don't upload your music
 
-Όταν αλλάξεις το `dj-practice.html`:
+- Most songs are **copyrighted**, and a public repo lets anyone download them.
+- GitHub doesn't accept files **bigger than 100 MB**.
+
+The [`.gitignore`](.gitignore) file already blocks music files from being uploaded by accident.
+
+---
+
+## Updating the app
+
+After you change `dj-practice.html`:
 
 ```bash
 git add dj-practice.html
-git commit -m "Περιγραφή της αλλαγής"
+git commit -m "What I changed"
 git push
 ```
 
-Το GitHub Pages ενημερώνεται σε 1–2 λεπτά. Αν βλέπεις ακόμα την παλιά έκδοση, πάτα **Ctrl + F5** στη σελίδα.
+The online version updates in 1–2 minutes. If you still see the old version, press **Ctrl + F5**.
 
 ---
 
-## Γρήγορη χρήση
+## How it's different from the real thing
 
-1. **POWER** → **📁 USB** → διάλεξε τον φάκελο με τα τραγούδια.
-2. Σε κάθε CDJ πάτα **BROWSE** και κάνε διπλό κλικ σε ένα κομμάτι.
-3. **PLAY** στο CDJ 1 και ανέβασε το fader του CH 1.
-4. Βρες την είσοδο στο CDJ 2, κάνε beatmatch (tempo slider ή **BEAT SYNC**) και μίξαρε με EQ και faders.
-
-Κύριες συντομεύσεις πληκτρολογίου:
-
-| | CDJ 1 | CDJ 2 |
-|---|---|---|
-| CUE / PLAY | `Z` / `X` | `N` / `M` |
-| Nudge − / + | `A` / `S` | `K` / `L` |
-| Hot Cue A–D | `1`–`4` | `7`–`0` |
-| 4-beat loop / Reloop | `Q` / `W` | `U` / `I` |
-| Sync | `E` | `O` |
-
-Crossfader: `←` / `→` · Beat FX ON/OFF: `Space`
-
-Όλες οι οδηγίες είναι και μέσα στην εφαρμογή, στο κουμπί **⌨ Οδηγίες**.
-
----
-
-## Διαφορές από το πραγματικό setup
-
-- Ο μίκτης έχει **2 κανάλια**: CDJ 1 → CH 1, CDJ 2 → CH 2. Το πραγματικό DJM-A9 έχει 4, και στο club τα CDJ μπορεί να είναι σε άλλα κανάλια, π.χ. CH 2 και CH 3.
-- Λείπουν mic, Bluetooth, booth out, memory cues και ο touch browser του CDJ.
-- Τα effects είναι προσεγγίσεις του ήχου του A9 και όχι ο ακριβής ήχος του.
-- Ποντίκι και πληκτρολόγιο δεν είναι ίδια αίσθηση με τα αληθινά knobs και το jog, αλλά η ροή, η λογική και το beatmatching είναι ίδια.
+- The mixer has **2 channels** (the real DJM-A9 has 4). Player 1 is CH 1 and Player 2 is CH 2.
+- There's no mic, Bluetooth, booth output, memory cues, or touch screen browser.
+- The effects sound close to the real ones, but not exactly the same.
+- A mouse and keyboard don't feel like real knobs and jog wheels. The way you mix and beatmatch is the same, though.
